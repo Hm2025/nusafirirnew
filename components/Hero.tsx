@@ -30,12 +30,14 @@ export default function Hero({ image, video, slides, headline, subheadline, desc
   return (
     <section className={`relative ${height} w-full overflow-hidden`}>
       <div
-        className="absolute inset-0 overflow-hidden bg-black"
+        className="absolute inset-0 overflow-hidden bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url("${activeSlide.image}")` }}
       >
         {activeSlide.video ? (
           <video
             className="h-full w-full object-cover"
             src={activeSlide.video}
+            poster={activeSlide.image}
             autoPlay
             loop
             muted
@@ -44,17 +46,14 @@ export default function Hero({ image, video, slides, headline, subheadline, desc
             aria-hidden="true"
           />
         ) : (
-          <div
-            className="h-full w-full bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${activeSlide.image})` }}
-          />
+          <div className="h-full w-full" />
         )}
         <div className="absolute inset-0 bg-black/30" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 pt-[190px] text-center sm:pt-[210px] lg:pt-[250px]">
-        <h1 className={`max-w-6xl whitespace-pre-line text-6xl leading-[0.9] text-white sm:text-7xl md:text-8xl ${headlineFont === "birthstone" ? "font-hero" : "font-script"}`}>
+        <h1 className={`max-w-6xl whitespace-pre-line text-6xl leading-[0.9] text-white sm:text-7xl md:text-8xl ${headlineFont === "birthstone" ? "font-hero-script font-normal" : "font-script"}`}>
           {activeSlide.headline ?? headline}
         </h1>
         <div className="mb-5 flex w-full max-w-7xl items-center gap-4 md:gap-6">

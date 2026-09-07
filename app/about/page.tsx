@@ -3,8 +3,9 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import TrustBar from "@/components/TrustBar";
+import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, BriefcaseBusiness, Globe2, Linkedin, Mail, PhoneCall, Star } from "lucide-react";
 
 const testimonials = [
   {
@@ -30,7 +31,7 @@ export default function About() {
       <Header />
       <main>
         <Hero
-          image="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1920&q=85"
+          image="/24553 about.jpeg"
           headline={"We've explored the\nworld for you"}
           subheadline="Let us help you navigate it safely"
           height="h-screen"
@@ -46,7 +47,7 @@ export default function About() {
             <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
               <div className="relative h-[520px] md:h-[680px] lg:h-[760px]">
                 <img
-                  src="/24553 about.jpeg"
+                  src="/travel.png"
                   alt="Two travelers walking along a tropical beach"
                   className="w-full h-full object-cover"
                 />
@@ -80,10 +81,52 @@ export default function About() {
         >
           <div className="mx-auto flex min-h-[560px] max-w-6xl items-start justify-end">
             <div className="max-w-2xl pt-4 text-right md:pt-8">
-              <blockquote className="font-display text-3xl leading-tight text-white md:text-5xl lg:text-6xl">
+              <blockquote className="font-hero font-normal text-3xl leading-tight text-white md:text-5xl lg:text-6xl">
                 &ldquo;I think travel when I&apos;m awake and dream travel when I&apos;m asleep.&rdquo;
               </blockquote>
               <p className="mt-8 text-lg font-light text-white/55 md:text-2xl">Dr. Nabeel Alateequi</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Why Choose Us */}
+        <section className="bg-[#f7f8f6] px-6 py-20 md:px-12 md:py-28 lg:px-20">
+          <div className="container-wide mx-auto">
+            <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
+              <div>
+                <p className="mb-6 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.28em] text-[#17615f]">
+                  <span className="text-nusafiri-gold">✳</span>
+                  Why Choose Us
+                </p>
+                <h2 className="max-w-xl font-body text-4xl font-semibold leading-[1.05] text-nusafiri-charcoal md:text-6xl">
+                  Comprehensive Experiences tailored around your needs
+                </h2>
+
+                <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
+                  {[
+                    { icon: Globe2, title: "Tailored Experiences", description: "Curated with care, shaped around your story" },
+                    { icon: BriefcaseBusiness, title: "Luxury Hospitality", description: "Guest management at the highest level of panache" },
+                    { icon: Star, title: "Seamless Logistics", description: "Easy flow of resources and time management for impactful gatherings" },
+                    { icon: PhoneCall, title: "World Class standards, local heart", description: "Where prestige meets soul" },
+                  ].map(({ icon: Icon, title, description }) => (
+                    <article key={title} className="rounded-[28px] border border-[#deded9] bg-white p-6 shadow-sm md:p-7">
+                      <div className="mb-7 flex h-12 w-12 items-center justify-center rounded-full bg-[#eeefeb] text-nusafiri-charcoal">
+                        <Icon className="h-5 w-5" strokeWidth={1.8} />
+                      </div>
+                      <h3 className="font-body text-lg font-semibold leading-tight text-nusafiri-charcoal">{title}</h3>
+                      <p className="mt-3 max-w-xs text-sm leading-relaxed text-nusafiri-muted">{description}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
+
+              <div className="relative h-[520px] overflow-hidden rounded-[28px] shadow-xl md:h-[680px] lg:h-[760px]">
+                <img
+                  src="/lady.png"
+                  alt="Nusafiri traveler enjoying a destination"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </section>
@@ -142,11 +185,13 @@ export default function About() {
           <div className="container-wide mx-auto">
             <div className="grid grid-cols-1 items-center gap-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
               <div className="flex items-center justify-center">
-                <svg className="h-auto w-full max-w-[430px] text-nusafiri-gold" viewBox="0 0 420 420" fill="none" aria-label="Nusafiri travel emblem" role="img">
-                  <path d="M210 24C150 46 94 102 72 162c-18 49 2 104 47 135 23 16 47 25 73 32 7 2 14 2 18-2 4-4 4-11 0-18-7-12-18-24-32-34-18-13-37-22-51-38-18-20-25-44-19-68 7-29 30-56 57-72-7 32-2 67 17 91 9 11 20 18 29 26 11 10 18 23 22 38 4-15 11-28 22-38 9-8 20-15 29-26 19-24 24-59 17-91 27 16 50 43 57 72 6 24-1 48-19 68-14 16-33 25-51 38-14 10-25 22-32 34-4 7-4 14 0 18 4 4 11 4 18 2 26-7 50-16 73-32 45-31 65-86 47-135C326 102 270 46 210 24Z" fill="currentColor" opacity="0.92"/>
-                  <path d="M210 92c-18 26-25 50-25 73 0 28 10 48 25 68 15-20 25-40 25-68 0-23-7-47-25-73Z" fill="white" opacity="0.92"/>
-                  <path d="M105 180c23 10 45 26 61 46 11 14 20 29 25 48M315 180c-23 10-45 26-61 46-11 14-20 29-25 48M83 239c24 5 47 15 66 30 14 11 25 24 34 40M337 239c-24 5-47 15-66 30-14 11-25 24-34 40" stroke="white" strokeWidth="12" strokeLinecap="round" opacity="0.92"/>
-                </svg>
+                <Image
+                  src="/nusafiri body.png"
+                  alt="Nusafiri travel emblem"
+                  width={400}
+                  height={400}
+                  className="h-auto w-full max-w-[430px]"
+                />
               </div>
               <div>
                 <div className="mb-10 flex items-center gap-5">
@@ -165,14 +210,14 @@ export default function About() {
         <section
           className="relative min-h-[860px] overflow-hidden bg-[#183a5d] px-6 py-32 md:px-12 md:py-44 lg:px-20"
           style={{
-            backgroundImage: "linear-gradient(rgba(10, 39, 70, 0.46), rgba(10, 39, 70, 0.46)), url('/textart2.jpg')",
+            backgroundImage: "linear-gradient(rgba(10, 39, 70, 0.46), rgba(10, 39, 70, 0.46)), url('/newimage.jpeg')",
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
         >
           <div className="mx-auto flex min-h-[660px] max-w-6xl items-start justify-end">
             <div className="max-w-2xl pt-4 text-right md:pt-8">
-              <blockquote className="font-display text-3xl leading-tight text-white md:text-5xl lg:text-6xl">
+              <blockquote className="font-hero text-3xl leading-tight text-white md:text-5xl lg:text-6xl">
                 &ldquo;We&apos;re not just building itineraries for our clients, we&apos;re creating memories that become legacies.&rdquo;
               </blockquote>
               <p className="mt-8 text-lg font-light text-white/60 md:text-2xl">Andrew Satkowiak</p>

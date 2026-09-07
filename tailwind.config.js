@@ -20,6 +20,7 @@ module.exports = {
         'display': ['"Cormorant Garamond"', 'Georgia', 'serif'],
         'script': ['"Allura"', 'cursive'],
         'hero': ['"Birthstone Bounce"', 'cursive'],
+        'hero-script': ['"Great Vibes"', 'cursive'],
         'body': ['"Montserrat"', 'system-ui', 'sans-serif'],
       },
       letterSpacing: {
