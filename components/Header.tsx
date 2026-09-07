@@ -7,7 +7,6 @@ import { ChevronDown, Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "ABOUT", href: "/about/" },
-  { label: "PERSONAL", href: "/personal/" },
   {
     label: "EXPERIENCE",
     href: "/ultra-luxury/",

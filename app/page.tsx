@@ -73,15 +73,6 @@ export default function Home() {
         />
 
         <SplitFeature
-          image="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80"
-          eyebrow="Personal Travel"
-          title="Live Life Outside the Lines"
-          description="Whether you seek a romantic escape, a family adventure, or a solo journey of self-discovery, our personal travel designers craft itineraries that reflect your unique desires. From private villa stays to exclusive cultural immersions, every experience is tailored to you."
-          linkText="Take Me There"
-          linkHref="/personal/"
-        />
-
-        <SplitFeature
           image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80"
           eyebrow="Business Travel"
           title="Where Business Meets Pleasure"
