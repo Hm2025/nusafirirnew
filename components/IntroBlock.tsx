@@ -19,9 +19,9 @@ export default function IntroBlock({ paragraphs, title }: IntroBlockProps) {
         )}
         <div className="grid grid-cols-1 items-center gap-14 md:grid-cols-[0.9fr_1.1fr] md:gap-20 lg:gap-28">
           <div className="flex justify-center">
-            <div className="relative flex h-64 w-64 items-center justify-center rounded-full bg-nusafiri-charcoal p-6 md:h-80 md:w-80 md:p-8">
+            <div className="relative flex h-64 w-64 items-center justify-center p-6 md:h-80 md:w-80 md:p-8">
               <Image
-                src="/nusafir.png"
+                src="/nusafiri body.png"
                 alt="Nusafiri"
                 width={512}
                 height={512}

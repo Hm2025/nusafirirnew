@@ -46,7 +46,7 @@ export default function About() {
             <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
               <div className="relative h-[520px] md:h-[680px] lg:h-[760px]">
                 <img
-                  src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=85"
+                  src="/24553 about.jpeg"
                   alt="Two travelers walking along a tropical beach"
                   className="w-full h-full object-cover"
                 />

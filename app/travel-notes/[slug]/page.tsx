@@ -18,6 +18,56 @@ const articles: Record<string, { title: string; date: string; image: string; con
       "The next time you plan a journey, consider doing less. Choose one region instead of three. Stay in one property for a week instead of hopping every two nights. Take the train instead of the plane. Walk instead of drive. You may be surprised by how much more you experience when you stop trying to experience everything.",
     ],
   },
+  "hidden-gems-private-islands": {
+    title: "Hidden Gems: Private Islands You Have Never Heard Of",
+    date: "February 28, 2024",
+    image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=1920&q=80",
+    content: [
+      "Beyond the famous island escapes are secluded places where the pace of life is slower, the beaches are quieter, and every arrival feels like a discovery.",
+      "The most rewarding private island journeys are built around more than beautiful scenery. They balance privacy with thoughtful service, local character, and experiences that could not be replicated anywhere else.",
+      "Our travel architects look beyond the obvious retreats to find private villas, hidden coves, and small island properties where the setting and the service feel entirely personal.",
+    ],
+  },
+  "wellness-journeys": {
+    title: "Wellness Journeys: Reconnecting Mind, Body, and Place",
+    date: "February 10, 2024",
+    image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1920&q=80",
+    content: [
+      "The most meaningful wellness journeys create space to reset while connecting you to the character of a place.",
+      "From thermal traditions in Tuscany to quiet mountain retreats in Bhutan, we design itineraries that combine expert practitioners, restorative surroundings, and a rhythm that leaves room to breathe.",
+      "Wellness travel is not about following a rigid schedule. It is about returning home with more energy, clarity, and a renewed sense of what matters.",
+    ],
+  },
+  "solo-travel": {
+    title: "Solo Travel: The Ultimate Act of Self-Love",
+    date: "January 22, 2024",
+    image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=1920&q=80",
+    content: [
+      "Traveling alone offers a rare freedom: every decision belongs to you, from the pace of the morning to the direction of the afternoon.",
+      "With the right planning and local support, solo travel can feel both liberating and deeply secure. We arrange trusted guides, seamless transfers, and spaces that encourage genuine connection.",
+      "The result is a journey shaped around your curiosity, with enough structure to feel effortless and enough openness for unexpected moments.",
+    ],
+  },
+  "safari-photography": {
+    title: "Safari Photography: Capturing the Soul of Africa",
+    date: "January 5, 2024",
+    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1920&q=80",
+    content: [
+      "Great safari photography begins with patience. The most memorable images often arrive after the camera has been ready and the vehicle has been still for a while.",
+      "Light, distance, and respect for wildlife matter as much as equipment. Experienced guides help guests anticipate movement and find compositions without disturbing the animals.",
+      "We pair exceptional camps with guides who understand both the landscape and the craft, creating opportunities to photograph Africa with care and perspective.",
+    ],
+  },
+  "around-the-world-30-days": {
+    title: "Around the World in 30 Days: A Nusafiri Itinerary",
+    date: "December 18, 2023",
+    image: "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=1920&q=80",
+    content: [
+      "A month around the world needs more than a list of destinations. It needs a rhythm that makes every transition feel worthwhile.",
+      "Our approach combines landmark cities, restorative stays, and carefully chosen connections so the journey feels cohesive rather than rushed.",
+      "With private transfers, expert local hosts, and room to linger, a multi-continent itinerary can feel expansive without becoming exhausting.",
+    ],
+  },
 };
 
 export function generateStaticParams() {
@@ -36,7 +86,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
     <>
       <Header />
       <main>
-        <Hero image={article.image} headline={article.title} subheadline={article.date} height="h-[60vh]" />
+        <Hero image={article.image} headline={article.title} subheadline={article.date} height="h-screen" />
         <section className="section-padding bg-nusafiri-cream">
           <div className="container-narrow mx-auto px-6">
             <div className="mb-10">

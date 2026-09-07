@@ -60,9 +60,14 @@ export default function Home() {
       <main>
         <Hero
           image="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1920&q=85"
-          video="/hero%202.mp4"
-          headline="Well Travelled"
-          subheadline="Experience the Art of Indulgence"
+          slides={[
+            { image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1920&q=85", video: "/hero%202.mp4", headline: "Where Every Journey is Designed Around You" },
+            { image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1920&q=85", video: "/hero1.mp4" },
+            { image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1920&q=85", video: "/slider3.mp4" },
+          ]}
+          headline="Travel Beyond the Destination"
+          subheadline="Experience the Extraordinary"
+          headlineFont="birthstone"
           description="Our luxury travel advisors deliver exceptionally indulgent experiences wherever life takes you. From beach escapes and city breaks to cruises, safaris, and important business journeys, every detail is perfectly pampered."
           height="h-screen"
         />
@@ -73,7 +78,7 @@ export default function Home() {
         />
 
         <SplitFeature
-          image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80"
+          image="/bsiness.jpeg"
           eyebrow="Business Travel"
           title="Where Business Meets Pleasure"
           description="Executive travel demands precision, efficiency, and seamless execution. Our corporate travel specialists ensure that every business journey is optimized for productivity while maintaining the comfort and luxury that discerning professionals expect."
@@ -84,7 +89,7 @@ export default function Home() {
 
         <Testimonials
           testimonials={testimonials}
-          image="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1600&q=85"
+          image="/backgrd.jpeg"
         />
 
         <BlogPreview eyebrow="See the world our way" posts={blogPosts} />

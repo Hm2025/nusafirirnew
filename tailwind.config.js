@@ -17,8 +17,9 @@ module.exports = {
         'nusafiri-border': '#E5E0DA',
       },
       fontFamily: {
-        'display': ['"Birthstone Bounce"', 'cursive'],
-        'script': ['"Birthstone Bounce"', 'cursive'],
+        'display': ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        'script': ['"Allura"', 'cursive'],
+        'hero': ['"Birthstone Bounce"', 'cursive'],
         'body': ['"Montserrat"', 'system-ui', 'sans-serif'],
       },
       letterSpacing: {

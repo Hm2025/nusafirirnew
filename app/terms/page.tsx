@@ -7,7 +7,7 @@ export default function Terms() {
     <>
       <Header />
       <main>
-        <Hero image="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1920&q=80" headline="Terms & Conditions" subheadline="Please Read Carefully" height="h-[50vh]" />
+        <Hero image="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1920&q=80" headline="Terms & Conditions" subheadline="Please Read Carefully" height="h-screen" />
         <section className="section-padding bg-nusafiri-cream">
           <div className="container-narrow mx-auto px-6 space-y-8">
             <div>
