@@ -31,13 +31,12 @@ export default function Hero({ image, video, slides, headline, subheadline, desc
     <section className={`relative ${height} w-full overflow-hidden`}>
       <div
         className="absolute inset-0 overflow-hidden bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url("${activeSlide.image}")` }}
+        style={activeSlide.video ? undefined : { backgroundImage: `url("${activeSlide.image}")` }}
       >
         {activeSlide.video ? (
           <video
             className="h-full w-full object-cover"
             src={activeSlide.video}
-            poster={activeSlide.image}
             autoPlay
             loop
             muted
