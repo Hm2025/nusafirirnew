@@ -42,7 +42,7 @@ export default function About() {
           <div className="container-wide mx-auto">
             <div className="mb-12 flex items-center gap-6 md:mb-16">
               <div className="h-px flex-1 bg-nusafiri-gold/70" />
-              <h2 className="shrink-0 font-script text-5xl text-[#1A1A1A] md:text-7xl">Our Story</h2>
+              <h2 className="shrink-0 font-display text-5xl text-[#1A1A1A] md:text-7xl">Our Story</h2>
             </div>
             <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
               <div className="relative h-[520px] md:h-[680px] lg:h-[760px]">
@@ -135,7 +135,7 @@ export default function About() {
         <section className="bg-white px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="container-wide mx-auto">
             <div className="mb-16 text-center md:mb-24">
-              <h2 className="font-script text-5xl text-[#1A1A1A] md:text-7xl">Meet Our Founders</h2>
+              <h2 className="font-display text-5xl text-[#1A1A1A] md:text-7xl">Meet Our Founders</h2>
             </div>
 
             <div className="space-y-24 md:space-y-32">
@@ -195,7 +195,7 @@ export default function About() {
               </div>
               <div>
                 <div className="mb-10 flex items-center gap-5">
-                  <h2 className="font-script text-5xl leading-none text-[#1A1A1A] md:text-7xl">Safety in Uncertain Times</h2>
+                  <h2 className="font-display text-5xl leading-none text-[#1A1A1A] md:text-7xl">Safety in Uncertain Times</h2>
                   <div className="h-px flex-1 bg-nusafiri-gold/70" />
                 </div>
                 <p className="max-w-2xl text-base leading-relaxed text-nusafiri-charcoal md:text-lg">
