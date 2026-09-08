@@ -16,7 +16,7 @@ export default function TrustBar() {
           Trusted by the world&apos;s leading ultra-luxury brands.
         </p>
         <div className="mx-auto mb-10 h-px w-full max-w-xl bg-nusafiri-border" />
-        <h3 className="mb-16 font-display text-4xl font-semibold tracking-[0.12em] text-[#17615f] md:text-6xl">
+        <h3 className="mb-16 font-display text-4xl font-semibold tracking-[0.12em] text-[#1A1A1A] md:text-6xl">
           Worldwide Partners
         </h3>
         <div className="grid grid-cols-2 items-center gap-10 text-nusafiri-charcoal/85 md:grid-cols-5 md:gap-12">

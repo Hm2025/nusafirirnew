@@ -34,7 +34,7 @@ export default function PlanMyTrip() {
           <div className="mx-auto max-w-5xl text-center">
             <div className="mb-8 flex items-center gap-6">
               <div className="h-px flex-1 bg-nusafiri-gold" />
-              <h1 className="font-display text-4xl font-semibold text-[#17615f] md:text-6xl">Let&apos;s Plan the Right Trip.</h1>
+              <h1 className="font-display text-4xl font-semibold text-[#1A1A1A] md:text-6xl">Let&apos;s Plan the Right Trip.</h1>
               <div className="h-px flex-1 bg-nusafiri-gold" />
             </div>
             <p className="mx-auto max-w-3xl text-base leading-relaxed text-nusafiri-charcoal md:text-lg">
@@ -53,7 +53,7 @@ export default function PlanMyTrip() {
         <section className="border-y border-nusafiri-border bg-nusafiri-warm px-6 py-16 md:px-12 lg:px-20">
           <div className="mx-auto max-w-6xl">
             <p className="mb-3 text-xs font-medium uppercase tracking-[0.3em] text-nusafiri-gold">Why Book With Us</p>
-            <h2 className="mb-10 font-display text-4xl font-semibold text-[#17615f] md:text-5xl">The difference is in the access</h2>
+            <h2 className="mb-10 font-display text-4xl font-semibold text-[#1A1A1A] md:text-5xl">The difference is in the access</h2>
             <div className="grid gap-8 text-center md:grid-cols-4 md:text-left">
               <div><p className="font-display text-3xl font-semibold text-nusafiri-charcoal">Virtuoso</p><p className="mt-2 text-sm text-nusafiri-muted">Membership opens doors most travellers never find.</p></div>
               <div><p className="font-display text-3xl font-semibold text-nusafiri-charcoal">10+ Years</p><p className="mt-2 text-sm text-nusafiri-muted">As a trusted Virtuoso member agency.</p></div>
@@ -67,7 +67,7 @@ export default function PlanMyTrip() {
         <form className="mx-auto max-w-5xl px-6 py-20 md:px-12 md:py-28 lg:px-0" action="#" method="post">
           <section className="mb-20">
             <p className="mb-3 text-xs font-medium uppercase tracking-[0.3em] text-nusafiri-gold">Full Journey Design</p>
-            <h2 className="mb-3 font-display text-4xl font-semibold text-[#17615f] md:text-5xl">What can we help you with?</h2>
+            <h2 className="mb-3 font-display text-4xl font-semibold text-[#1A1A1A] md:text-5xl">What can we help you with?</h2>
             <p className="mb-10 text-nusafiri-muted">The more you share, the better we can curate. There are no wrong answers — if you&apos;re still figuring things out, just tell us where your imagination is taking you.</p>
             <div className="grid gap-4 sm:grid-cols-2">
               {["Full custom multi-destination journey", "Luxury hotel or resort booking only", "Private villa rental", "Safari", "Cruise or yacht charter", "Celebration or multi-generational trip", "Not sure yet"].map((option) => (
@@ -81,7 +81,7 @@ export default function PlanMyTrip() {
 
           <section className="mb-20 border-t border-nusafiri-border pt-16">
             <p className="mb-3 text-xs font-medium uppercase tracking-[0.3em] text-nusafiri-gold">Your Journey</p>
-            <h2 className="mb-10 font-display text-4xl font-semibold text-[#17615f] md:text-5xl">Shape the details</h2>
+            <h2 className="mb-10 font-display text-4xl font-semibold text-[#1A1A1A] md:text-5xl">Shape the details</h2>
             <div className="grid gap-8 md:grid-cols-2">
               <label className={labelClass}>Where are you thinking?<span className="block normal-case tracking-normal text-nusafiri-muted">As specific or open as you like</span><input name="destination" className={inputClass} /></label>
               <label className={labelClass}>Approximate travel dates<span className="block normal-case tracking-normal text-nusafiri-muted">Exact dates not needed — a rough window is fine</span><input name="dates" className={inputClass} placeholder="e.g. May–June 2027" /></label>
@@ -95,7 +95,7 @@ export default function PlanMyTrip() {
 
           <section className="mb-20 border-t border-nusafiri-border pt-16">
             <p className="mb-3 text-xs font-medium uppercase tracking-[0.3em] text-nusafiri-gold">Experience Preferences</p>
-            <h2 className="mb-3 font-display text-4xl font-semibold text-[#17615f] md:text-5xl">What kind of experience?</h2>
+            <h2 className="mb-3 font-display text-4xl font-semibold text-[#1A1A1A] md:text-5xl">What kind of experience?</h2>
             <p className="mb-10 text-nusafiri-muted">Select all that apply.</p>
             <div className="grid gap-4 sm:grid-cols-2">
               {experienceOptions.map((option) => <label key={option} className="flex cursor-pointer items-center gap-3 border border-nusafiri-border bg-white px-4 py-4 text-sm transition-colors hover:border-nusafiri-gold"><input type="checkbox" name="experiences" value={option} className="h-4 w-4 accent-nusafiri-gold" /><span>{option}</span></label>)}
@@ -104,7 +104,7 @@ export default function PlanMyTrip() {
 
           <section className="mb-20 border-t border-nusafiri-border pt-16">
             <p className="mb-3 text-xs font-medium uppercase tracking-[0.3em] text-nusafiri-gold">Total Trip Investment</p>
-            <h2 className="mb-3 font-display text-4xl font-semibold text-[#17615f] md:text-5xl">Excluding international flights</h2>
+            <h2 className="mb-3 font-display text-4xl font-semibold text-[#1A1A1A] md:text-5xl">Excluding international flights</h2>
             <p className="mb-10 text-sm leading-relaxed text-nusafiri-muted">Our custom itineraries begin at $20,000. Hotel-only bookings begin at $800/night. If you&apos;re not yet sure of your budget, select &quot;Prefer to discuss&quot; — we&apos;re here to help you find the right fit.</p>
             <div className="space-y-4">
               {investmentOptions.map(([value, detail]) => <label key={value} className="flex cursor-pointer items-start gap-4 border border-nusafiri-border bg-white px-5 py-4 transition-colors hover:border-nusafiri-gold"><input type="radio" name="investment" value={value} className="mt-1 h-4 w-4 accent-nusafiri-gold" /><span><strong className="block text-sm font-medium">{value}</strong><span className="text-sm text-nusafiri-muted">{detail}</span></span></label>)}
@@ -113,13 +113,13 @@ export default function PlanMyTrip() {
 
           <section className="mb-16 border-t border-nusafiri-border pt-16">
             <p className="mb-3 text-xs font-medium uppercase tracking-[0.3em] text-nusafiri-gold">Anything Else?</p>
-            <h2 className="mb-10 font-display text-4xl font-semibold text-[#17615f] md:text-5xl">Tell us more <span className="text-xl font-normal text-nusafiri-muted">optional but very helpful</span></h2>
+            <h2 className="mb-10 font-display text-4xl font-semibold text-[#1A1A1A] md:text-5xl">Tell us more <span className="text-xl font-normal text-nusafiri-muted">optional but very helpful</span></h2>
             <textarea name="notes" rows={6} className="w-full border border-nusafiri-border bg-white px-4 py-3 text-sm outline-none transition-colors focus:border-nusafiri-gold" />
           </section>
 
           <section className="border-t border-nusafiri-border pt-16">
             <p className="mb-3 text-xs font-medium uppercase tracking-[0.3em] text-nusafiri-gold">Your Contact Details</p>
-            <h2 className="mb-10 font-display text-4xl font-semibold text-[#17615f] md:text-5xl">Start the conversation</h2>
+            <h2 className="mb-10 font-display text-4xl font-semibold text-[#1A1A1A] md:text-5xl">Start the conversation</h2>
             <div className="grid gap-8 md:grid-cols-2">
               <label className={labelClass}>First name<input name="firstName" required className={inputClass} /></label>
               <label className={labelClass}>Last name<input name="lastName" required className={inputClass} /></label>
@@ -141,7 +141,7 @@ export default function PlanMyTrip() {
 
         <section className="bg-white px-6 py-20 text-center md:px-12 md:py-24 lg:px-20">
           <div className="mx-auto max-w-3xl">
-            <p className="font-display text-3xl font-semibold text-[#17615f]">Just want to say hello first?</p>
+            <p className="font-display text-3xl font-semibold text-[#1A1A1A]">Just want to say hello first?</p>
             <p className="mt-3 text-nusafiri-muted">We&apos;re happy to chat.</p>
             <a href="/contact/" className="mt-8 inline-flex border border-nusafiri-gold px-8 py-3 text-xs font-semibold uppercase tracking-widest text-nusafiri-charcoal transition-colors hover:bg-nusafiri-gold hover:text-white">Contact Us</a>
           </div>

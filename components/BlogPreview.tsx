@@ -46,7 +46,7 @@ export default function BlogPreview({ posts, eyebrow }: BlogPreviewProps) {
                   />
                 </div>
                 <div className="flex flex-1 flex-col px-5 pb-7 pt-6 text-center md:px-6">
-                  <h3 className="mb-4 font-display text-2xl font-semibold leading-tight text-[#17615f] transition-colors group-hover:text-nusafiri-gold md:text-3xl">
+                  <h3 className="mb-4 font-display text-2xl font-semibold leading-tight text-[#1A1A1A] transition-colors group-hover:text-nusafiri-gold md:text-3xl">
                     {post.title}
                   </h3>
                   <p className="mb-6 line-clamp-5 text-sm leading-relaxed text-nusafiri-muted">

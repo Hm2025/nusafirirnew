@@ -33,7 +33,7 @@ export default function LuxuryAfricanSafaris() {
           <div className="container-narrow mx-auto text-center">
             <div className="mb-10 flex items-center gap-6">
               <div className="h-px flex-1 bg-nusafiri-gold" />
-              <h2 className="font-display text-4xl font-semibold text-[#17615f] md:text-5xl">Beyond the Safari</h2>
+              <h2 className="font-display text-4xl font-semibold text-[#1A1A1A] md:text-5xl">Beyond the Safari</h2>
               <div className="h-px flex-1 bg-nusafiri-gold" />
             </div>
             <div className="space-y-6 text-base leading-relaxed text-nusafiri-charcoal md:text-lg">
@@ -48,7 +48,7 @@ export default function LuxuryAfricanSafaris() {
         </section>
         <section className="bg-nusafiri-cream px-6 py-20 text-center md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="container-narrow mx-auto">
-            <h2 className="mb-6 font-display text-3xl font-semibold text-[#17615f] md:text-4xl">Your African Journey Awaits</h2>
+            <h2 className="mb-6 font-display text-3xl font-semibold text-[#1A1A1A] md:text-4xl">Your African Journey Awaits</h2>
             <p className="mx-auto mb-8 max-w-3xl text-base leading-relaxed text-nusafiri-charcoal md:text-lg">
               Africa is vast, varied, and endlessly captivating. Let us transform your safari dream into a thoughtful itinerary built around your passions, interests, and style.
             </p>

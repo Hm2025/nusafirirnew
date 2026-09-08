@@ -39,7 +39,7 @@ export default function SplitFeature({
           <div className="absolute right-0 top-0 h-full w-6 bg-gradient-to-b from-nusafiri-gold to-[#f5d58d]" />
           <div className="w-full px-10 py-16 text-center md:px-16 lg:px-20">
             {eyebrow && <p className="mb-6 font-display text-xl font-semibold italic text-nusafiri-gold md:text-2xl">{eyebrow}</p>}
-            <h2 className="mx-auto mb-10 max-w-xl font-display text-4xl font-semibold leading-tight text-[#17615f] md:text-5xl lg:text-6xl">
+            <h2 className="mx-auto mb-10 max-w-xl font-display text-4xl font-semibold leading-tight text-[#1A1A1A] md:text-5xl lg:text-6xl">
               {title}
             </h2>
             <p className="mx-auto mb-10 max-w-2xl text-base leading-relaxed text-nusafiri-charcoal md:text-lg">

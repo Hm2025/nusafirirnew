@@ -42,7 +42,7 @@ export default function About() {
           <div className="container-wide mx-auto">
             <div className="mb-12 flex items-center gap-6 md:mb-16">
               <div className="h-px flex-1 bg-nusafiri-gold/70" />
-              <h2 className="shrink-0 font-script text-5xl text-[#17615f] md:text-7xl">Our Story</h2>
+              <h2 className="shrink-0 font-script text-5xl text-[#1A1A1A] md:text-7xl">Our Story</h2>
             </div>
             <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
               <div className="relative h-[520px] md:h-[680px] lg:h-[760px]">
@@ -94,7 +94,7 @@ export default function About() {
           <div className="container-wide mx-auto">
             <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
               <div>
-                <p className="mb-6 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.28em] text-[#17615f]">
+                <p className="mb-6 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.28em] text-[#1A1A1A]">
                   <span className="text-nusafiri-gold">✳</span>
                   Why Choose Us
                 </p>
@@ -135,7 +135,7 @@ export default function About() {
         <section className="bg-white px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-32">
           <div className="container-wide mx-auto">
             <div className="mb-16 text-center md:mb-24">
-              <h2 className="font-script text-5xl text-[#17615f] md:text-7xl">Meet Our Founders</h2>
+              <h2 className="font-script text-5xl text-[#1A1A1A] md:text-7xl">Meet Our Founders</h2>
             </div>
 
             <div className="space-y-24 md:space-y-32">
@@ -146,7 +146,7 @@ export default function About() {
                 <div className="relative z-10 -mt-12 bg-white px-8 py-12 shadow-xl md:-ml-10 md:px-14 lg:-ml-16 lg:px-16">
                   <div className="absolute -right-4 -top-4 -z-10 h-full w-full bg-gradient-to-br from-nusafiri-gold to-[#f5d58d]" />
                   <div className="flex items-center gap-4">
-                    <h3 className="font-display text-3xl font-semibold text-[#17615f] md:text-4xl">Founder Name</h3>
+                    <h3 className="font-display text-3xl font-semibold text-[#1A1A1A] md:text-4xl">Founder Name</h3>
                     <div className="h-px flex-1 bg-nusafiri-gold/60" />
                   </div>
                   <p className="mt-2 text-sm font-semibold text-nusafiri-muted">President</p>
@@ -162,7 +162,7 @@ export default function About() {
                 <div className="relative z-10 order-2 -mt-12 bg-white px-8 py-12 shadow-xl md:-mr-10 md:px-14 lg:order-1 lg:-mr-16 lg:px-16">
                   <div className="absolute -left-4 -top-4 -z-10 h-full w-full bg-gradient-to-br from-nusafiri-gold to-[#f5d58d]" />
                   <div className="flex items-center gap-4">
-                    <h3 className="font-display text-3xl font-semibold text-[#17615f] md:text-4xl">Co-Founder Name</h3>
+                    <h3 className="font-display text-3xl font-semibold text-[#1A1A1A] md:text-4xl">Co-Founder Name</h3>
                     <div className="h-px flex-1 bg-nusafiri-gold/60" />
                   </div>
                   <p className="mt-2 text-sm font-semibold text-nusafiri-muted">Executive Vice President</p>
@@ -195,7 +195,7 @@ export default function About() {
               </div>
               <div>
                 <div className="mb-10 flex items-center gap-5">
-                  <h2 className="font-script text-5xl leading-none text-[#17615f] md:text-7xl">Safety in Uncertain Times</h2>
+                  <h2 className="font-script text-5xl leading-none text-[#1A1A1A] md:text-7xl">Safety in Uncertain Times</h2>
                   <div className="h-px flex-1 bg-nusafiri-gold/70" />
                 </div>
                 <p className="max-w-2xl text-base leading-relaxed text-nusafiri-charcoal md:text-lg">
@@ -232,7 +232,7 @@ export default function About() {
           <div className="container-wide mx-auto">
             <div className="mb-16 flex items-center gap-6 md:mb-20">
               <div className="h-px flex-1 bg-nusafiri-gold/70" />
-              <h2 className="shrink-0 font-display text-4xl font-semibold text-[#17615f] md:text-6xl">Become Enchanted</h2>
+              <h2 className="shrink-0 font-display text-4xl font-semibold text-[#1A1A1A] md:text-6xl">Become Enchanted</h2>
               <div className="h-px flex-1 bg-nusafiri-gold/70" />
             </div>
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-12">
@@ -247,7 +247,7 @@ export default function About() {
                   <div className="absolute bottom-0 left-0 right-0 h-5 bg-gradient-to-r from-[#a96f36] via-nusafiri-gold to-[#f5d58d]" />
                 </div>
                 <div className="p-7 md:p-9">
-                <h3 className="font-display text-3xl font-semibold text-[#17615f] mb-5 group-hover:text-nusafiri-gold transition-colors">
+                <h3 className="font-display text-3xl font-semibold text-[#1A1A1A] mb-5 group-hover:text-nusafiri-gold transition-colors">
                   Ninety Seconds in Siena
                 </h3>
                 <p className="text-base text-nusafiri-charcoal leading-relaxed mb-6">
@@ -271,7 +271,7 @@ export default function About() {
                   <div className="absolute bottom-0 left-0 right-0 h-5 bg-gradient-to-r from-[#a96f36] via-nusafiri-gold to-[#f5d58d]" />
                 </div>
                 <div className="p-7 md:p-9">
-                <h3 className="font-display text-3xl font-semibold text-[#17615f] mb-5 group-hover:text-nusafiri-gold transition-colors">
+                <h3 className="font-display text-3xl font-semibold text-[#1A1A1A] mb-5 group-hover:text-nusafiri-gold transition-colors">
                   Up, Up & Away
                 </h3>
                 <p className="text-base text-nusafiri-charcoal leading-relaxed mb-6">
