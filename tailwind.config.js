@@ -17,7 +17,7 @@ module.exports = {
         'nusafiri-border': '#E5E0DA',
       },
       fontFamily: {
-        'display': ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        'display': ['"Bricolage Grotesque"', 'sans-serif'],
         'script': ['"Allura"', 'cursive'],
         'hero': ['"Birthstone Bounce"', 'cursive'],
         'hero-script': ['"Great Vibes"', 'cursive'],
