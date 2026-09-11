@@ -52,7 +52,7 @@ export default function Hero({ image, video, slides, headline, subheadline, desc
 
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 pt-[190px] text-center sm:pt-[210px] lg:pt-[250px]">
-        <h1 className={`max-w-6xl whitespace-pre-line text-6xl leading-[0.9] text-white sm:text-7xl md:text-8xl ${headlineFont === "birthstone" ? "font-hero-script font-normal" : "font-script"}`}>
+        <h1 className="max-w-6xl whitespace-pre-line text-6xl leading-[0.9] text-white sm:text-7xl md:text-8xl font-body font-normal">
           {activeSlide.headline ?? headline}
         </h1>
         <div className="mb-5 flex w-full max-w-7xl items-center gap-4 md:gap-6">

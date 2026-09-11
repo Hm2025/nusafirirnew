@@ -19,7 +19,7 @@ const navItems = [
     ],
   },
   { label: "PLAN MY TRIP", href: "/plan-my-trip/" },
-  { label: "TRAVEL # MEMORIES", href: "/travel-notes/" },
+  { label: "MEMORIES", href: "/travel-notes/" },
 ];
 
 export default function Header() {
@@ -28,24 +28,24 @@ export default function Header() {
 
   return (
     <header
-      className="absolute left-0 right-0 top-0 z-50 bg-black/20"
+      className="absolute left-0 right-0 top-0 z-50 bg-black/30"
     >
       <div className="container-wide mx-auto px-6">
         <div className="flex h-[148px] items-center justify-center">
           <Link href="/" className="flex flex-col items-center group">
             <Image
-              src="/nusafir.png"
+              src="/Nusafiri%20logo%20gold.png"
               alt="Nusafiri"
-              width={128}
-              height={128}
-              className="h-32 w-32 object-contain md:h-36 md:w-36"
+              width={160}
+              height={160}
+              className="h-36 w-36 object-contain md:h-40 md:w-40"
               priority
             />
           </Link>
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="relative left-1/2 hidden h-[102px] w-screen -translate-x-1/2 items-center justify-center border-y border-white/10 bg-black/25 px-6 backdrop-blur-[2px] lg:flex">
+        <nav className="relative left-1/2 hidden h-[74px] w-screen -translate-x-1/2 items-center justify-center border-y border-white/10 bg-black/40 px-6 backdrop-blur-md lg:flex">
           <ul className="flex items-center justify-center gap-8 xl:gap-12">
             {navItems.map((item) => (
               <li key={item.label} className="relative group">
@@ -56,7 +56,7 @@ export default function Header() {
                     onMouseLeave={() => setDropdownOpen(false)}
                   >
                     <button
-                      className="flex max-w-[110px] items-center justify-center gap-1 text-center text-[11px] uppercase tracking-widest-xl font-medium leading-tight text-white/90 transition-colors duration-300 hover:text-white"
+                      className="flex max-w-[120px] items-center justify-center gap-1 text-center text-[12px] uppercase tracking-[0.18em] font-medium leading-tight text-white/90 transition-colors duration-300 hover:text-white"
                     >
                       {item.label}
                       <ChevronDown className="w-3 h-3" />
@@ -83,7 +83,7 @@ export default function Header() {
                 ) : (
                   <Link
                     href={item.href}
-                    className="block max-w-[110px] text-center text-[11px] uppercase tracking-widest-xl font-medium leading-tight text-white/90 transition-colors duration-300 hover:text-white"
+                    className="block max-w-[120px] text-center text-[12px] uppercase tracking-[0.18em] font-medium leading-tight text-white/90 transition-colors duration-300 hover:text-white"
                   >
                     {item.label}
                   </Link>
